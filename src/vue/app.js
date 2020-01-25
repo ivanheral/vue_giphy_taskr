@@ -1,9 +1,37 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Newrouter from './routes/routes.js';
-import Element from 'element-ui';
 import Nav from './components/nav.vue';
-Vue.use(Element);
+
+import {
+  Dialog,
+  Menu,
+  MenuItem,
+  Input,
+  InputNumber,
+  Checkbox,
+  Button,
+  Form,
+  FormItem,
+  Row,
+  Col,
+  Container,
+  Main
+} from 'element-ui';
+
+Vue.use(Dialog);
+Vue.use(Menu);
+Vue.use(MenuItem);
+Vue.use(Input);
+Vue.use(InputNumber);
+Vue.use(Checkbox);
+Vue.use(Button);
+Vue.use(Form);
+Vue.use(FormItem);
+Vue.use(Row);
+Vue.use(Col);
+Vue.use(Container);
+Vue.use(Main);
 Vue.use(Router);
 
 new Vue({
